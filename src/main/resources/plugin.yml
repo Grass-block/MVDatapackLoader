@@ -1,0 +1,9 @@
+name: MVDataPackLoader
+version: '${version}'
+main: org.atcraftmc.mvdl.MVDataPackLoader
+api-version: '1.20'
+commands:
+  mvdl-load-datapacks:
+    description: "sync(copy)datapacks to world folder."
+    permission: "mvdl.sync"
+    usage: "/mvdl-load-datapacks"
